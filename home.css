@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+
+
 *{
    margin:0;
    padding:0;
@@ -48,4 +50,123 @@ a
     text-decoration: none;
     display: inline-block;
 }
+
+ul
+{
+    list-style: none;
+    overflow: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.utility
+{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.container
+{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section)
+}
+
+
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.top-banner
+{
+   height: 3rem;
+   background-color: #E74694;
+   background-image: url('assets/asset\ 32.png');
+   background-size: 300px;
+   text-align: center;
+   padding: 10px 30px;
+   color: white;
+}
+
+.nav-title-img
+{
+    width: 8rem;
+    height:1.5rem;
+}
+
+.nav-items
+{
+    margin-top: 2rem;
+}
+
+.tester
+{
+    margin-left: 0.2rem;
+    background-image: url('assets/asset\ 33.svg');
+    width: 8rem;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
+    max-height:2rem;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.nav-links
+{
+    flex-basis: 50rem;
+}
+
+.nav-links ul
+{
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.nav-link
+{
+    color: black;
+}
+
+.nav-link:hover
+{
+    color: var(--accent-color)
+}
+
+.primary:hover
+{
+    background-color: var(--accent-color-dark);
+}
+.primary
+{
+    background-color: var(--accent-color);
+    border-radius:6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px var(--secondary-text-color);
+    transition: 0.2s ease-out;
+}
+
+.secondary
+{
+   border: 0.5px solid var(--secondary-text-color);
+    border-radius:6px;
+    font-weight: 700;
+    color: var(--primary-text-color) !important;
+    padding: 12px 24px;
+    transition: 0.2s ease-out;
+}
+
+.secondary:hover
+{
+    border-color: var(--accent-color);
+    color: var(--accent-color) !important;
+}
+
 
