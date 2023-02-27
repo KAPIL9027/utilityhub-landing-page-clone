@@ -163,10 +163,141 @@ ul
     transition: 0.2s ease-out;
 }
 
+header
+{
+    margin-top: 5rem;
+}
 .secondary:hover
 {
     border-color: var(--accent-color);
     color: var(--accent-color) !important;
 }
 
+.header-left
+{
+    margin-right: 4rem;
+}
 
+.header-right
+{
+    width:35rem;
+}
+
+.content-left
+{
+    margin-top: 1.5rem;
+}
+.btn-get-started
+{
+    margin-top: 2rem;
+}
+
+.starting-line
+{
+    text-align: center;
+}
+
+.companies-section
+{
+    margin-top: 5rem;
+}
+.logo
+{
+    height: 3rem;
+}
+
+.logos
+{
+    margin-top: 1.5rem;
+}
+
+.feature-heading
+{
+    font-size:1.5rem;
+}
+
+.feature-section-header
+{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.feature-card
+{
+    text-align: center;
+    max-width: 20rem;
+    margin: 1.5rem;
+
+}
+.card-heading
+{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+.card-text
+{
+    font-size: 1.25rem;
+    margin-block: 1.5rem;
+}
+
+.feature-img-card
+{
+    transform: scale(0.5);
+}
+
+.features {
+    flex-wrap: wrap;
+}
+
+.features-section
+{
+    margin-top: 10rem;
+    background-image: url('assets/asset\ 34.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.big-feature-section-container
+{
+    gap: 5rem;
+}
+.big-feature-img img
+{
+   width: 100%;
+}
+
+.qoute-section
+{
+    background-image: url('assets/asset\ 35.svg');
+    background-repeat: no-repeat;
+}
+
+.feature-next-part
+{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.reviewer-img
+{
+    transform: scale(0.6);
+}
+
+.big-feature-section
+{
+    margin-top: 4rem;
+}
+
+.review
+{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.company-name-img img
+{
+    width: 6rem;
+    height: 2rem;
+}
