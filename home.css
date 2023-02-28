@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-
-
 *{
    margin:0;
    padding:0;
@@ -301,3 +299,147 @@ header
     width: 6rem;
     height: 2rem;
 }
+
+.examples-section-cards
+{
+    margin-block: 2rem;
+}
+.example-card
+{
+    
+    width: 23%;
+    height: 20rem;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('assets/asset\ 36.jpeg');
+    background-size: cover;
+    position: relative;
+    transition: 2ms ease-in;
+}
+
+.example-card:hover
+{
+    box-shadow: 0 0 10px #888;
+}
+.example-card:nth-child(2)
+{
+    
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('assets/asset\ 37.jpeg');
+    background-size: cover;
+   
+}
+.example-card:nth-child(3)
+{
+    
+   
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('assets/asset\ 38.jpeg');
+    background-size: cover;
+  
+}
+.example-card:nth-child(4)
+{
+    
+    
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('assets/asset\ 39.jpeg');
+    background-size: cover;
+   
+}
+
+.example-card-text
+{
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+    right: 1rem;
+    color: white; 
+}
+
+.cta-right-img img
+{
+   width: 100%;
+}
+
+.cta-section
+{
+    background-color: #183b54;
+    padding: 3rem 2rem;
+}
+
+
+.cta-heading
+{
+    color: white;
+}
+
+.cta-list-items
+{
+    color: var(--secondary-text-color);
+    list-style: disc !important;
+
+}
+
+.list
+{
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.cta-list-items li
+{
+    margin-block: 0.7rem;
+}
+
+.get-started-container
+{
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer-img
+{
+    width:15rem;
+}
+.footer-img img
+{
+    width: 100%;
+}
+
+.items 
+{
+    flex-direction:column;
+    align-items:flex-start;
+    gap: 1rem;
+}
+
+.subfooter
+{
+    justify-content: center;
+    gap: 8rem;
+}
+
+.subfooter-left
+{
+    width: 32%;
+}
+
+.subfooter-imgs
+{
+    width: 5%;
+}
+
+.subfooter-img
+{
+    transform: scale(0.5);
+}
+
+.subfooter-text
+{
+    color: var(--primary-text-color);
+}
+
+.subfooter
+{
+    background-color: #B9CDE4;
+    height: 4rem;
+}
+
