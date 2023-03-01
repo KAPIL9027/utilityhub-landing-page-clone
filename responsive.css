@@ -1,0 +1,73 @@
+@media screen and (max-width: 991px)
+{
+    .container
+    {
+        overflow: hidden;
+    }
+    .hamburger
+    {
+        display: block;
+    }
+    .nav-links
+    {
+        display: none;
+    }
+
+    .examples-section-cards
+    {
+       flex-wrap: wrap;
+    }
+
+    .example-card 
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 2rem;
+        height: 15rem;
+        align-items: space-between;
+    }
+
+    .logos
+    {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    h3 
+    {
+        font-size: 1rem;
+    }
+
+    .subfooter-text
+    {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    p {
+        font-size: 1.25rem;
+    }
+    .header
+    {
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+    .header-left
+    {
+        text-align: center;
+       max-width: 100vw;
+       margin-right: 0;
+    }
+    .header-right
+    {
+        max-width: 100vw;
+    }
+    .primary
+    {
+        width: 100%;
+        text-align: center;
+       
+    }
+
+}

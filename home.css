@@ -131,6 +131,10 @@ ul
     color: black;
 }
 
+.hamburger
+{
+    display: none;
+}
 .nav-link:hover
 {
     color: var(--accent-color)
@@ -173,12 +177,13 @@ header
 
 .header-left
 {
+    max-width: 40vw;
     margin-right: 4rem;
 }
 
-.header-right
+.header-right img
 {
-    width:35rem;
+    width:100%;
 }
 
 .content-left
@@ -223,9 +228,9 @@ header
 .feature-card
 {
     text-align: center;
-    max-width: 20rem;
-    margin: 1.5rem;
-
+    width: 15rem;
+    height: 25rem;
+   
 }
 .card-heading
 {
@@ -246,6 +251,8 @@ header
 
 .features {
     flex-wrap: wrap;
+    justify-content: center;
+    gap:5rem;
 }
 
 .features-section
@@ -397,7 +404,7 @@ header
 
 .footer-img
 {
-    width:15rem;
+    width:10rem;
 }
 .footer-img img
 {

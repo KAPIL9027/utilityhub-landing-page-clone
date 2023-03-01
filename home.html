@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
-    <script src="https://kit.fontawesome.com/c8452291d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="responsive.css">
     <title>UsablilityHub-Clone</title>
 </head>
 <body>
@@ -30,16 +30,21 @@
                     <li><a href="#" class="nav-link primary">Sign up</a></li>
                 </ul>
             </div>
+            <a href="#" class="hamburger">
+                <img alt="hamburger" src="assets/bars-solid.svg" width="20" height="20">
+            </a>
         </div>
     </nav>
     <header>
-        <div class="container flex">
+        <div class="header container flex">
             <div class="header-left">
             <h1 class="heading">Design Confidently.</h1>
             <p  class="content-left">UsabilityHub is a remote user research platform that takes the guesswork out of design decisions by validating them with real users.</p>
             <a href="#" class="primary btn-get-started">Get Started</a>
             </div>
-            <img class="header-right" src="assets/asset 2.png">
+            <div class="header-right">
+                <img src="assets/asset 2.png">
+            </div>
         </div>
        
     </header>
@@ -242,7 +247,7 @@
      </section>
 
     <footer style="background-color: #EBF2FA;">
-        <div class="container flex footer-section" style="justify-content: space-between; align-items:flex-start;padding: 5rem;margin-top: 5rem;">
+        <div class="container flex footer-section" style="justify-content: space-evenly; gap: 2rem;align-items:flex-start;padding: 5rem;margin-top: 5rem;">
             <a class = "footer-img"> <img src="assets/asset 1.png"></a>
             <div class="items flex">
                 <h3>Product</h3>
@@ -292,5 +297,6 @@
             <a href="#"><img class="subfooter-img" src="assets/asset 31.png"></a>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/c8452291d2.js" crossorigin="anonymous"></script>
 </body>
 </html>
