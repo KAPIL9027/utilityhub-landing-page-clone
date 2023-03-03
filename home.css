@@ -367,7 +367,7 @@ header
 .cta-section
 {
     background-color: #183b54;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
 }
 
 
@@ -402,6 +402,10 @@ header
     gap: 3rem;
 }
 
+.footer-section
+{
+ justify-content: space-evenly; gap: 2rem;align-items:flex-start;padding: 5rem;margin-top: 5rem;
+}
 .footer-img
 {
     width:10rem;
@@ -420,13 +424,15 @@ header
 
 .subfooter
 {
-    justify-content: center;
-    gap: 8rem;
+    justify-content: space-evenly;
+    background-color: #B9CDE4;
+    padding: 1rem;
+
 }
 
 .subfooter-left
 {
-    width: 32%;
+    width: 50%;
 }
 
 .subfooter-imgs
@@ -444,9 +450,11 @@ header
     color: var(--primary-text-color);
 }
 
-.subfooter
+#big-feature-section-2
 {
-    background-color: #B9CDE4;
-    height: 4rem;
+  flex-direction: row-reverse;
 }
 
+.cta-left {
+    flex-direction: column; align-items: flex-start; gap: 1rem
+}
